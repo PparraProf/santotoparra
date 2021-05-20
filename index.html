@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <title>Formulario de contacto HTML5/CSS3/PHP</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="form-estilos.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="author" content="Innoweb - Peterson F.">
+    <title>Formulario de contacto</title>
+  </head>
 
-</head>
+  <body>
+   <h1 class="formuh1">Contacto.</h1>  
 
-<body>
- 
-<aside> 
+    <form id="form1" class="well col-lg-12" action="enviar.php" method="post" name="form1" enctype="multipart/form-data">
+        <label>Nombre*</label>
+        <input id="Nombre" type="text" name="Nombre" />
 
-<H1>Formulario de contacto HTML5/CSS3/PHP</H1>
-<a href="http://www.internetedadinero.com">¿Como se hace?</a> | <a href="http://www.internetedadinero.com">Descargar Archivos</a>
-<hr>
-<FORM ACTION="enviar_email.php" METHOD="post"> 
+        <label>Email*</label>
+        <input id="Email" type="email" name="Email" />
 
-<label for="first_name">Nombre</label> <INPUT type="text" size=36 name="first_name"></INPUT> 
-<label for="last_name">Apellido</label> <INPUT type="text" size=36 name="last_name"></INPUT> 
-<label for="email">E-mail</label> <INPUT type="email" size=36 name="email"></INPUT> 
-<label for="telephone">Teléfono</label> <INPUT type="tel" size=36 name="telephone"></INPUT> 
-<label for="message">Mensaje</label> <TEXTAREA rows=5 cols=30 name="message"></TEXTAREA> 
-<br>
-<INPUT type="reset" value="Borrar"> <INPUT type="submit" value="Enviar"><a href="http://www.internetedadinero.com/tutorial-formulario/email_form.php"></a>
+          <label>Mensaje*</label> 
+         <textarea id="Mensaje" name="Mensaje" rows="4"></textarea>
+         
+          <label>archivo</label>
+          <input type="file" name="adjunto" id="archivo-adjunto">
 
-</FORM> 
+        <button type="submit">Enviar</button>
+    </form>
 
-</aside> 
 
-</body>
-
-<footer>
-   <a href="Formulario-parra/otro_form.html" target="_blank">otro formulario</a>
-  </footer>
-
+  </body>
 </html>
