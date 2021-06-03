@@ -1,0 +1,1322 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+@media (max-width:1980px) and (min-width: 849px){
+
+.containercontaminado{
+	margin-top: -280px;
+}
+
+.fondoazul{
+	width:100%;
+	height: 2487PX;
+	 }
+
+.fondo2azul{
+	display: none;
+}
+
+.migadepan{
+
+	margin-top: -2150px;
+	margin-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875em;
+	color: #2ea684;
+}
+
+.efectos{
+
+	margin-top: 40px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 1.844em;
+	line-height: 45px;
+	color: #6bd05c;
+	width: 653px;
+	height: 40px;
+	
+
+
+}
+
+.titulo {
+	margin-top: 10px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 6.563em;
+	line-height: 60px;
+	color: #FFFFFF;
+	width: 653px;
+}
+
+.parrafo{
+	margin-top: 75px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	color: #FFFFFF;
+	width: 643px;
+	height: 200px;
+}
+
+
+.autoscontaminados {
+	width: 90%;
+	margin-top: -10%;
+	float: left;
+	background-color: 
+}
+
+.principales {
+	margin-top: -16%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 1.813em;
+	line-height: 32.8px;
+	color: #2ea684;
+	text-align: right;
+
+}
+
+.gas1 {
+
+	margin-top: -35%;
+	margin-left: 5%;
+	width: 10%;
+}
+
+.gas2{
+
+	margin-top: -25%;
+	margin-left: -1%;
+	width: 4%;
+}
+
+.gas3{
+
+	margin-top: -15%;
+	margin-left: -3%;
+	width: 7%;
+}
+
+.gas4{
+	margin-top: 2%;
+	margin-left: 18%;
+	width:62%;
+}
+
+/*Lineas*/
+
+.st0{fill:url(#SVGID_1_);}
+.st1{fill:url(#SVGID_2_);}
+.st2{fill:url(#SVGID_3_);}
+.st3{fill:url(#SVGID_4_);}
+.st4{fill:url(#SVGID_5_);}
+.st5{fill:url(#SVGID_6_);}
+
+
+.lineas{
+	margin-top: -12%;
+}
+
+
+
+.contaminante1{
+	margin-top: -47%;
+	margin-left: 41%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+
+.contaminante2{
+	margin-top: -3%;
+	margin-left: 54%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+.contaminante3{
+	margin-top: -4%;
+	margin-left: 69%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+
+.contaminante4{
+	margin-top: 2%;
+	margin-left: 32%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+
+.contaminante5{
+	margin-top: -3%;
+	margin-left: 46%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+
+.contaminante6{
+	margin-top: -3%;
+	margin-left: 62%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 0.906em;
+	color: #FFFFFF;
+	
+}
+
+.efectos2 {
+	margin-top: 7%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 2.169em;
+	line-height: 32.8px;
+	color: #2ea684;
+	text-align: right;
+
+}
+
+
+.numero{
+	margin-left: 3%;
+	font-family: 'Niramit', sans-serif;
+	font-style: 'Bold';
+	font-size: 7.188em;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+	width: 10%;
+
+}
+
+.parrafo1{
+	margin-top: 10%;
+	
+	margin-left: -70%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	color: #FFFFFF;
+	width: 360px;
+
+}
+
+.numeros{
+	margin-top: 10px;
+}
+
+#fondoanimado{
+	background-image: url("imgs/gasflotante1.png");
+	margin-top: 2%;
+	
+	animation: gasanimadogrande 2s alternate ease infinite ;
+
+}
+
+@keyframes gasanimadogrande{
+	0% {
+		transform: translateY(-10%); 
+	}
+	 100%{
+	 	transform: translateY(0%);
+	 }
+}
+
+#fondoanimado2{
+	margin-top: -50%;
+	margin-left: 10%; 
+	animation: gasanimadogrande 2s alternate ease infinite;
+	width: 80%;
+}
+
+#fondoanimado3{
+	margin-top: -10%;
+	margin-left: 10%; 
+	animation: gasanimadogrande 2s alternate ease infinite;
+	width: 70%;
+}
+
+#fondoanimado4{
+	margin-top: -20%;
+	margin-left: 20%; 
+	animation: gasanimadogrande 2s alternate ease infinite;
+	width: 70%;
+}
+
+.transporte{
+	margin-top: 40px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 3.806em;
+	font-weight: bold;
+	line-height: 45px;
+	color: #6bd05c;
+	width: 653px;
+	height: 40px;
+
+}
+
+.parrafo2{
+	margin-top: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	color: #2e5c84;
+	width: 640px;
+	height: 200px;
+}
+
+.contenedor1{
+	width: 90%;
+}
+
+
+.containerbeneficios{
+ 	width: 100%;
+}
+
+
+
+
+.beneficios{
+
+	margin-top: 5%;
+	margin-left: 15px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 1.825em;
+	line-height: 45px;
+	color: #6bd05c;
+	height: 40px;
+}
+
+.carroseco{
+	width: 80%;
+}
+
+.carroseco1{
+	width: 80%;
+}
+
+.carroseco2{
+	width: 40%;
+}
+
+.columnaeco{
+	width: 25%;
+}
+
+
+.parrafo3{
+	
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	text-align: center;
+	color: #2e5c84;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+
+.ciclista{
+	
+	margin-top: 5%;
+	font-family: 'Niramit', sans-serif;
+	font-size: 2.313em;
+	font-weight: bold;
+	line-height: 45px;
+	color: #6bd05c;
+	height: 40px;
+}
+
+.col-lg-2{
+	width: 20%;
+}
+
+.numero1{
+
+	font-family: 'Niramit', sans-serif;
+	font-style: 'Bold';
+	font-size: 7.188em;
+	text-align: center;
+	font-weight: bold;
+	color: #6bd05c;
+	padding: 20px;
+
+}
+
+.parrafo7{
+	margin: 10px -40px 10px 20px ;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	color: #2e5c84;
+	width: 250px;
+	height: 200px;
+}
+
+.casco{
+	margin: 10px 10px;
+}
+
+.luciaencicla{
+	margin-top: -100px;
+	width: 800px;
+}
+.luciabicicleta{
+	margin-top: -50px;
+	margin-left: -320px;
+	
+}
+
+.ahora{
+	margin-left: -100px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 2.813em;
+	font-weight: bold;
+	text-align: center;
+	color: #2e5c84;
+}
+
+.ahoratext{
+	margin-left: 25px;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	text-align: center;
+	color: #2e5c84;
+	width: 350px;
+	
+}
+
+.modozerotox{
+	margin-left: -100px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 1.875em;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+.reto{
+	
+	width: 400px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 1.375em;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+
+a{
+
+	color: #2ea684;
+}
+
+.fuentes{
+	margin-left: 90px;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75em;
+	
+	color: #2e5c84;
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:850px) and (min-width: 549px){
+
+.containercontaminado{
+	margin-top: -60px;
+
+}
+
+.fondo{
+	
+	width: 850px;
+	height: 1468px;
+
+}
+
+.fondo2{
+	display: none;
+}
+
+.migadepan{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -1445px;
+	margin-left: 20px;
+	font-size: 10px;
+	color: #2ea684;
+	
+}
+
+.efectos{
+	margin-top: 10px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 24.5px;
+	text-align: center;
+	color: #6bd05c;
+
+}
+
+.titulo {
+	margin-top: 10px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 90px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	
+}
+
+.parrafo{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 55px;
+	font-size: 14px;
+	width: 520px;
+	color: #fff;
+	
+}
+
+
+.autoscontaminados {
+	width: 750px;
+	margin-top: -100px;
+	
+}
+
+.principales {
+	margin-top: -150px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 20px;
+	line-height: 32.8px;
+	color: #2ea684;
+	text-align: right;
+
+}
+
+.gas1 {
+
+	margin-top: -320px;
+	margin-left: 40px;
+	width: 100px;
+	
+}
+
+.gas2{
+
+	margin-top: -150px;
+	margin-left: -20px;
+	width: 50px;
+}
+
+.gas3{
+
+	margin-top: -80px;
+	margin-left: -20px;
+	width: 70px;
+	
+}
+
+.gas4{
+	margin-top: 30px;
+	margin-left: 200px;
+	width: 420px;
+}
+
+/*Lineas*/
+
+.st0{fill:url(#SVGID_1_);}
+.st1{fill:url(#SVGID_2_);}
+.st2{fill:url(#SVGID_3_);}
+.st3{fill:url(#SVGID_4_);}
+.st4{fill:url(#SVGID_5_);}
+.st5{fill:url(#SVGID_6_);}
+
+
+.lineas{
+	margin-top: -125px;
+}
+
+
+
+.contaminante1{
+	margin-top: -400px;
+	margin-left: 340px;
+	font-family: 'Niramit', sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+	
+}
+
+.contaminante2{
+	margin-top: -30px;
+	margin-left: 450px;
+	font-size: 11px;
+	font-family: 'Niramit', sans-serif;
+	color: #FFFFFF;
+	
+	
+}
+.contaminante3{
+	margin-top: -45px;
+	margin-left: 575px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	
+}
+
+.contaminante4{
+	margin-top: 25px;
+	margin-left: 265px;
+	font-size: 11px;
+	font-family: 'Niramit', sans-serif;
+	color: #FFFFFF;
+	
+	
+}
+
+.contaminante5{
+	margin-top: -30px;
+	margin-left: 380px;
+	font-size: 11px;
+	font-family: 'Niramit', sans-serif;
+	color: #FFFFFF;
+	
+	
+}
+
+.contaminante6{
+	margin-top: -30px;
+	margin-left: 520px;
+	font-size: 11px;
+	font-family: 'Niramit', sans-serif;
+	color: #FFFFFF;
+	
+	
+}
+
+.efectos2 {
+	margin-top: 30px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 29px;
+	color: #6bd05c;
+
+}
+
+.numero{
+	margin-left: -10px;
+	margin-top: 10px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+
+}
+
+.parrafo1{
+	margin-left: -130px;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 280px;
+
+}
+
+
+
+#fondoanimado{
+	background-image: url("imgs/gasflotante1.png");
+	margin-top: 50px;
+	width: 850px;
+	animation: gasanimadogrande 2s alternate ease infinite ;
+
+}
+
+@keyframes gasanimadogrande{
+	0% {
+		transform: translateY(-10%); 
+	}
+	 100%{
+	 	transform: translateY(0%);
+	 }
+}
+
+#fondoanimado2{
+	margin-top: -450px;
+	margin-left: 50px; 
+	width: 750px;
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+#fondoanimado3{
+	margin-top: -100px;
+	margin-left: 150px; 
+	width: 550px;
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+#fondoanimado4{
+	margin-top: -180px;
+	margin-left: 150px; 
+	width: 550px;
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+.transporte{
+	font-family: 'Niramit', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #6bd05c;
+}
+
+.parrafo2{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	font-size: 14px;
+	width: 540px;
+	color: #2e5c84;
+}
+
+.beneficios{
+	color: #6bd05c;
+	margin-top: 10px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 24.5px;
+}
+
+.col-md-2{
+
+	width: 350px;
+}
+
+.carroseco2{
+	margin-left: 60px;
+}
+
+
+.parrafo3{
+	font-family: 'Montserrat', sans-serif;
+	color: #2e5c84;
+	font-size: 12px;
+	width: 280px;
+	text-align: center;
+	
+
+
+}
+
+.parrafo4{
+	font-family: 'Montserrat', sans-serif;
+	color: #2e5c84;
+	text-align: center;
+	font-size: 12px;
+	width: 280px;
+	
+
+}
+
+
+
+
+.ciclista{
+	font-family: 'Niramit', sans-serif;
+	color: #6bd05c;
+	margin-top: 20px;
+
+}
+
+.contenedor1{
+	
+	margin-left: 180px;
+	width: 850px;
+}
+
+.columna3{
+
+	margin-left: 200px;
+}
+
+.numero1{
+	font-family: 'Niramit', sans-serif;
+	color: #6bd05c;
+	font-size: 100px;
+	padding: 10px;
+	font-weight: bold;
+	width: 150px;
+
+}
+
+.parrafo7{
+	margin-left: -40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #2e5c84;
+	width: 250px;
+	height: 200px;
+}
+
+.casco{
+	margin-top: -100px;
+	margin-left: -60px;
+	width: 200px;
+}
+
+.luciaencicla{
+	margin-top: -100px;
+	width: 360px;
+}
+.luciabicicleta{
+	margin-top: 50px;
+	margin-left: -250px;
+	width:520px;
+	
+}
+
+.ahora{
+	margin-left: -100px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #2e5c84;
+}
+
+.ahoratext{
+	margin-left: 25px;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #2e5c84;
+	width: 350px;
+	
+}
+
+.modozerotox{
+	margin-left: -100px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+.reto{
+	
+	width: 400px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+
+a{
+
+	color: #2ea684;
+}
+
+.fuentes{
+	margin-top: -10px;
+	margin-left: 65px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	width: 670px;
+	
+	color: #2e5c84;
+	
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:550px){
+
+
+.containercontaminado{
+	margin-top: -160px;
+	width: 500px;
+	height: 4000px;
+}
+
+.fondo{
+	display: none;
+}
+
+
+
+.st6{fill:#03395B;}
+
+.migadepan{
+
+	display: none;
+}
+
+.efectos{
+	margin-top: -1325px;
+	color: #6bd05c;
+	font-family: 'Niramit', sans-serif;
+	font-size: 20px;
+
+}
+
+.titulo {
+	font-family: 'Niramit', sans-serif;
+	margin-top: -1300px;
+	font-size: 73px;
+	color: #fff;
+}
+
+.parrafo{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -1200px;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 430px;
+}
+
+
+.autoscontaminados {
+	width: 510px;
+	height:300px;
+	margin-top: -1100px;
+	
+}
+
+.principales {
+	color: #6bd05c;
+	font-family: 'Niramit', sans-serif;
+	margin-top: -900px;
+	font-size: 20px;
+	
+
+}
+
+.gas1 {
+
+	display: none;
+	
+}
+
+.gas2{
+
+	display: none;
+}
+
+.gas3{
+
+	display: none;
+	
+}
+
+.gas4{
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 400px;
+}
+
+/*Lineas*/
+
+.st0{fill:url(#SVGID_1_);}
+.st1{fill:url(#SVGID_2_);}
+.st2{fill:url(#SVGID_3_);}
+.st3{fill:url(#SVGID_4_);}
+.st4{fill:url(#SVGID_5_);}
+.st5{fill:url(#SVGID_6_);}
+
+
+.lineas{
+	margin-top: -1400px;
+	margin-left: -100px;
+	width: 700px;
+}
+
+
+
+.contaminante1{
+	margin-top: -875px;
+	margin-left: 185px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+
+.contaminante2{
+	margin-top: -30px;
+	margin-left: 275px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+.contaminante3{
+	margin-top: -45px;
+	margin-left: 380px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+
+.contaminante4{
+	margin-top:15px;
+	margin-left: 120px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+
+.contaminante5{
+	margin-top: -30px;
+	margin-left: 215px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+
+.contaminante6{
+	margin-top: -30px;
+	margin-left: 330px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	
+}
+
+.efectos2 {
+	margin-top: 40px;
+	font-family: 'Niramit', sans-serif
+	font-size: 20px;
+	color: #6bd05c;
+	
+
+}
+
+.containerefectos2{
+	width: 
+}
+
+.numero{
+	margin-top: -20px;
+	font-family: 'Niramit', sans-serif;
+	font-style: 'Bold';
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px;
+
+}
+
+.parrafo1{
+	
+	margin-top: -20px;
+	margin-left: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 325px;
+
+}
+
+.numeros{
+	margin-top: 10px;
+}
+
+#fondoanimado{
+	background-image: url("imgs/gasflotante1.png");
+	margin-top: -5300px;
+	width: 500px;
+	animation: gasanimadogrande 2s alternate ease infinite ;
+
+}
+
+@keyframes gasanimadogrande{
+	0% {
+		transform: translateY(-10%); 
+	}
+	 100%{
+	 	transform: translateY(0%);
+	 }
+}
+
+#fondoanimado2{
+	margin-top: -5450px;
+	width: 500px;
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+#fondoanimado3{
+	margin-top: -5300px;
+	margin-left: 50px; 
+	width: 400px;
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+#fondoanimado4{
+	margin-top: -5200px;
+	margin-left: 50px;
+	width: 400px; 
+	animation: gasanimadogrande 2s alternate ease infinite;
+}
+
+.transporte{
+	margin-top: -2550px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+	width: 653px;
+	
+
+}
+
+.parrafo2{
+	margin-top: -2480px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #2e5c84;
+	width: 450px;
+	height: 200px;
+}
+
+.beneficios{
+
+	margin-top: -2300px;
+	margin-left: 15px;
+	font-family: 'Niramit', sans-serif;
+	font-size: 29.2px;
+	
+	color: #6bd05c;
+	
+}
+
+.containerbeneficios{
+	margin-top: -2250px;
+}
+
+.carroseco{
+	
+	width: 300px;
+	margin-left: 100px;
+}
+
+.carroseco1{
+	
+	margin-left: 100px;
+	width: 300px;
+}
+
+.carroseco2{
+	
+	margin-left: 150px;
+	width: 200px;
+}
+
+
+.parrafo3{
+	
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #2e5c84;
+	width: 500px;
+	
+
+
+}
+
+.parrafo4{
+	
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #2e5c84;
+	width: 500px;
+	
+
+}
+
+.parrafo5{
+	 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #2e5c84;
+	
+}
+
+.parrafo6{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #2e5c84;
+	
+}
+
+
+
+.ciclista{
+	
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Niramit', sans-serif;
+	font-size: 37px;
+	font-weight: bold;
+	line-height: 45px;
+	color: #6bd05c;
+	width: 300px;
+}
+
+
+
+.numero1{
+	margin-top: -10px;
+	font-family: 'Niramit', sans-serif;
+	font-style: 'Bold';
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	color: #6bd05c;
+	padding: -10px;
+
+}
+
+.parrafo7{
+	
+	margin-left: 110px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #2e5c84;
+	width: 260px;
+	
+}
+
+.casco{
+	
+	margin-left: 140px;
+}
+
+.luciaencicla{
+	margin-top: -100px;
+	width: 260px;
+}
+.luciabicicleta{
+	margin-top: 150px;
+	margin-left: -135px;
+	width:720px;
+	
+}
+
+.ahora{
+	margin-left: -200px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #2e5c84;
+}
+
+.ahoratext{
+	margin-left: -70px;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #2e5c84;
+	width: 350px;
+	
+}
+
+.modozerotox{
+	margin-left: -200px;
+	width: 600px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+.reto{
+	margin-left:-90px;
+	width: 400px;
+	font-family:  'Niramit', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #6bd05c;
+}
+
+
+a{
+
+	color: #2ea684;
+}
+
+.fuentes{
+	margin-top: 10px;
+	margin-left: 65px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	width: 400px;
+	
+	color: #2e5c84;
+	
+}
+
+
+}
