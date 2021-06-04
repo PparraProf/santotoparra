@@ -1,0 +1,281 @@
+body {
+	background-color: #E0D8D0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #ccc;
+}
+
+header .title {
+	background:linear-gradient(to bottom, #2EA684, #2E5B84);
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	height: 115px;
+	font-family: 'Niramit', sans-serif;
+}
+
+header h1{
+	font-size: 30px;
+	text-align: center;	
+}
+
+header p{
+	font-size: 16px;
+	text-align: center;	
+	margin-top: -10px;
+}
+
+header div.datospunti{
+	width: 450px;
+	margin: 0px auto;
+	font-family: 'Niramit', sans-serif;
+}
+
+header div.countdown {
+	float: right;
+}
+
+header div.points {
+	float: left;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+header div.points.animate.right {
+	color: #2EA684;
+}
+
+header div.points.animate.wrong {
+	color: #EE4A5E;
+}
+
+header div.countdown, header div.points {
+	font-weight: bold;
+	margin: 25px 10px 10px;
+	color: #2E5B84;
+	padding: 0px;
+	font-size: 24px;
+}
+
+.contrivia{
+	padding: 0px 10px;
+	width: 100%;
+}
+
+.card, .card2 {
+	width: 450px;
+	height: 350px;
+	background-color: #fff;
+	margin: 70px auto 0px auto;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lucicomenzar{
+	height: 100px;
+	display: block;
+	margin: 5px auto;
+}
+
+.lucicontinuar{
+	height: 80px;
+	display: block;
+	margin: 0px auto 15px;
+}
+
+div.start .card {
+	display: block;
+}
+
+div.start .card p, .question.card span.question {
+	font-size: 20px;
+	width: 450px;
+	color: #2E5B84;
+	text-align: center;
+}
+
+.card.question, .card2.questions{
+	display: none;
+}
+
+.card.question.active {
+	display: block;
+	
+}
+
+.card.question .options {
+	padding: 0;
+	list-style: none;
+	margin-top: 25px;
+}
+
+.card.question .options > li {
+	margin: 10px 50px;
+}
+
+.card.question .options > li label {
+	background-color: #2EA684;
+	color: #fff;
+	display: block;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.card.question .options > li label:hover {
+	background-color: #1A7564;
+}
+
+.card.question .options > li input:checked + label {
+	background-color: #4D8E8C !important;
+	color: #fff;
+}
+
+.card.question .options > li input {
+	opacity: 0;
+	display: none;
+}
+
+.finish, .finish2 {
+	display: none;
+}
+
+.card.finish p {
+	font-size: 20px;
+	color: #2E5B84;
+}
+.card2.finish2 p {
+	font-size: 20px;
+	color: #2E5B84;
+}
+
+.card.finish h2 {
+	font-size: 22px;
+	color: #2E5B84;
+}
+.card2.finish2 h2 {
+	font-size: 22px;
+	color: #2E5B84;
+}
+
+.card.finish .final_points {
+	font-size: 40px;
+	font-weight: bolder;
+	color: #2E5B84;
+	margin-top: 0px;
+}
+
+
+.card2.finish2 .wing_points {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #2E5B84;
+	margin: 0px 0px -15px;
+}
+
+.playagain,
+button.start {
+	width: 200px;
+	margin: 0 auto 20px auto;
+	color: #fff;
+	background:linear-gradient(to bottom, #2EA684, #2E5B84); 
+	font-family: 'Niramit', sans-serif;
+	font-size: 18px;
+	border-radius: 10px;
+	border: none;
+	padding: 8px 8px 10px;
+	float: none;
+}
+
+.verguia {
+	background:#fff; 
+	width: 180px; 
+	border-radius: 10px;
+	border: solid #BAB1AA 2px; 
+	padding: 8px 8px 8px;
+	margin: 0 auto 20px auto;
+	ont-family: 'Niramit', sans-serif;
+	font-size: 18px;
+	color: #2E5B84;
+	text-decoration: none;
+}
+
+@media (max-width:850px){
+header h1{
+	font-size: 25px;
+	margin: 15px;
+}
+}
+
+@media (max-width:740px){
+header .title {
+	height: 130px;
+}
+header div.countdown, header div.points {
+	margin: 15px 10px 10px;
+}
+
+header h1{
+	font-size: 25px;
+	margin: 15px;
+}
+
+.card, .card2 {
+	margin: 55px auto 20px auto;
+}
+
+}
+
+@media (max-width:500px){
+.contrivia{
+	padding: 0px 10px 80px;
+}
+header div.countdown, header div.points {
+	margin: 25px 10px 10px;
+}
+
+header div.datospunti{
+	width: 400px;
+}	
+
+header h1{
+	font-size: 22px;
+	margin: 13px;
+}
+	
+.card, .card2 {
+	width: 400px;
+	height: 350px;
+	margin: 70px auto 20px auto;
+	padding: 20px 20px;
+}
+
+.card.question .options {
+	width: 370px;
+	margin: 25px auto 0px;
+}
+.card.question .options > li {
+	margin: 10px 50px;
+}
+div.start .card p, .question.card span.question {
+	width: 350px;
+	margin: 10px auto 20px;
+}
+}
+
+
+
+
+
