@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mediateca</title>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+	<!--physics system-->
+</head>
+<body>
+	<a-scene physics="debug: true" fog="type: exponential; color: #000; density: .10; near: 0; far: 20">
+  <a-sky color="black" radius="30"></a-sky>
+		<!--piso-->
+		<a-assets>
+		<img id="piso" src="img/wood_floor.jpg" width="400" height="400"  alt=""/>
+		<img id="wall" src="img/paperwall_low.jpg" width="3694" height="1200"  alt=""/> 
+		</a-assets>
+	<a-plane width="10.2" height="21" src="#piso"  repeat="2 4" rotation="-90 0 0" ></a-plane>
+		<!--walls-->
+	<a-plane width="21" height="10" src="#wall"  repeat="1 1" rotation="0 -90 0" position="5.1 5 0" ></a-plane>
+	<a-plane width="21" height="10" src="#wall"  repeat="1 1" rotation="0 90 0" position="-5.1 5 0" ></a-plane>
+		<!--wall front and back-->
+	<a-plane width="10.2" height="10" src="#wall"  repeat=".5 1" rotation="0 0 0" position="0 5 -10.5" ></a-plane>
+	<a-plane width="10.2" height="10" src="#wall"  repeat=".5 1" rotation="0 180 0" position="0 5 10.5" ></a-plane>
+		<!--vínculo de prueba-->
+		<a-link  title="Entra a edificio" href="3d.html" image="img/edif3d.jpg" repeat="1 1" position="0 2.5 -9" width="2"></a-link>
+		<!--luces-->
+		 <a-light type="point" intensity=".5" position="6 11 10"></a-light>
+		<a-light type="point" intensity=".5" position="-6 11 -10"></a-light>
+		<!--planos con imágenes-->
+	<a-assets>
+		<img id="img1" src="img/boton.jpg" width="5" height="5" alt=""/>
+		<img id="img2" src="img/boton.jpg" width="50" height="50" alt=""/>
+		<img id="img3" src="img/boton.jpg" width="50" height="50" alt=""/>
+		<img id="img4" src="img/boton.jpg" width="50" height="50" alt=""/>
+	  </a-assets>
+		<!--el valor -90 que se aplica en rotation siguiente es para que la cara quede mirando hacia el interior se deberá cambiar color por src para modificar las imágenes-->
+	  <a-plane width="2" height="3" color="blue" rotation="0 -90 0" position="5 3 9.1"></a-plane>
+	  <a-plane width="2" height="3" color="blue" rotation="0 90 0" position="-5 3 9.1"></a-plane>
+		<!--fila2-->
+	  <a-plane width="2" height="3" color="blue" rotation="0 -90 0" position="5 3 7"></a-plane>
+	  <a-plane width="2" height="3" color="blue" rotation="0 90 0" position="-5 3 7"></a-plane>
+		<!--fila3-->
+	  <a-plane width="2" height="3" color="blue" rotation="0 -90 0" position="5 3 4.9"></a-plane>
+		<a-plane width="2" height="3" color="blue" rotation="0 90 0" position="-5 3 4.9"></a-plane>
+		<!--fila4-->
+	  <a-plane width="2" height="3" color="blue" rotation="0 -90 0" position="5 3 2.8"></a-plane>
+	  <a-plane width="2" height="3" color="blue" rotation="0 90 0" position="-5 3 2.8"></a-plane>
+		<!--marcador de posición-->
+	<a-sphere radius="1" color="red" position="0 0 10"></a-sphere>
+		<!--posición 13 deja al borde la cámara-->
+	  <a-entity camera="userHeight: 1.6" look-controls wasd-controls position="0 3 0">
+        <!--cursor-->
+	<a-entity cursor
+                  position="0 0 -0.5"
+                  geometry="primitive: circle; radius: 0.01; segments: 10;"
+                  material="color: #FF4444; shader: flat"></a-entity>
+		 
+		
+	
+</a-scene>
+	
+</body>
+</html>
